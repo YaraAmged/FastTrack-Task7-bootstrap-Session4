@@ -171,6 +171,33 @@ section {
   border-radius: 50%;
   margin-bottom: 25px;
 }
+.border-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+}
+.content-div {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+}
+.percent-95 {
+  background: conic-gradient(#0bceaf 95%, #5a5a5a 0%);
+}
+.percent-55 {
+  background: conic-gradient(#0bceaf 55%, #5a5a5a 0%);
+}
+.percent-86 {
+  background: conic-gradient(#0bceaf 86%, #5a5a5a 0%);
+}
+.percent-60  {
+  background: conic-gradient(#0bceaf 60%, #5a5a5a 0%);
+}
 .input-form {
   padding: 10px 10px;
   border-radius: 4px;
@@ -186,4 +213,9 @@ section {
 .footer {
   padding: 5px 0;
 }
-
+.content-percent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
